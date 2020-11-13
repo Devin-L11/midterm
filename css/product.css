@@ -1,0 +1,153 @@
+body{
+    margin:0;
+}
+
+.contain{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+
+
+/*top area*/
+
+.top{
+    display:flex;
+    margin-top: 50px;
+}
+
+.left_bar{
+    width:20%;
+}
+
+ul{
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom:40px;
+}
+
+
+
+li{
+    width:160px;
+    list-style:none ;
+    padding: 5px;
+    transition-duration: 0s;
+    border-radius: 4px;
+}
+
+li:hover{
+    background-color: #FA5738;
+}
+
+.planet{
+    height:22px;
+    width:32px;
+}
+
+a{
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #000000;
+}
+
+.line{
+    background-color: #FA5738;
+    height:550px;
+    width:1px;
+    margin-right: 80px;
+}
+
+.right_bar{
+    width:80%;
+}
+
+.content{}
+
+.first_pic{
+    margin-left: auto;
+    margin-right: auto;
+    width:650px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    font-size: 20px;
+    padding:0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+}
+
+h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+/*bottom area*/
+.container{
+    border-style: solid;
+    border-width: 4px 0px;
+    margin-bottom: 120px;
+    background-color: #FFC15E;
+    display: flex;
+}
+
+.button{
+    widows: 33px;
+    height:33px;
+    align-self: center;    
+    transition-duration: 1s;
+}
+
+.button:hover{
+    height: 50px;
+}
+
+.picture{
+    display: flex;
+    width:80%;
+    margin-left: auto;
+}
+
+.picture:hover{
+}
+
+.bottom_pic{
+    display: flex;
+    margin:68px 20px;
+    width:324px;
+    border-style: solid;
+    border-width: 4.5px;
+    border-color: white;
+    border-radius: 4.5px;
+    
+    transition-duration: 1s;
+}
+
+.bottom_pic:hover{
+    opacity: 50%;
+    
+}

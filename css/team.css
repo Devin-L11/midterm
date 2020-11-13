@@ -1,0 +1,111 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,a
+{color:#333333;list-style:none; margin:0px; padding:0px;}
+body{
+    background-color:white;
+}
+.container{
+    display: block;
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+
+.main-area{
+    display:flex;
+    justify-content: space-between;
+    height:750px;
+}
+
+.main-area-left{
+    background-color:#0081B5;
+    width:50%;
+    text-align:center;
+    border-right:2.25px solid;
+}
+
+.main-area-left h2{
+    color:white;
+    margin-bottom:40px;
+}
+.main-area-left p{
+    line-height: 1.5em;
+    margin:15px;
+    color:white;
+    font-size: 14px;
+}
+
+.main-area-right{
+    background-color:#FFC15E;
+    width:50%;
+    text-align:center;
+    border-left:2.25px solid;
+}
+
+.main-area-right h2{
+    color:black;
+    margin-bottom:40px;
+}
+.main-area-right p{
+    line-height: 1.5em;
+    margin:15px;
+    font-size: 14px;
+}
+
+.profile-left{
+    margin:40px;
+    margin:40px;
+    position: relative;
+    display: inline-block;
+}
+
+.profile-left-top{
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.profile-left:hover .profile-left-top{
+    display:inline
+}
+.profile-right{
+    margin:40px;
+    position: relative;
+    display: inline-block;
+}
+
+.profile-right-top{
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.profile-right:hover .profile-right-top{
+    display:inline
+}
+
+
+
+
+p{
+    padding:0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 210.19%;
+    letter-spacing: 0.4em;
+    padding-left: 10px;
+}
